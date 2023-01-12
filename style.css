@@ -56,12 +56,11 @@ a {
   color: var(--white);
   border: none;
   border-radius: 50px;
-  margin: 4rem 0;
   padding: 1.2em 0;
   width: 280px;
 }
 
-button:hover {
+.btn:hover {
   background: var(--cyan);
   cursor: pointer;
 }
@@ -123,6 +122,8 @@ button:hover {
 }
 
 .hero__text {width: 72rem;}
+
+.hero__btn {margin: 4rem 0;}
 
 /* --- SECTION - FEATURES --- */
 
@@ -235,3 +236,40 @@ button:hover {
 }
 
 .testimonial__profile-profession {font-size: 1.2rem;}
+
+/* --- SECTION - SIGN UP --- */
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  background: var(--bg-testimonials);
+  border-radius: 8px;
+  margin: 12rem auto;
+  padding: 4rem 8rem;
+  min-width: 320px;
+  max-width: 900px;
+}
+
+.signup__form {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.signup__form-input {
+  font-size: 1.6rem;
+  font-family: var(--ff-headings);
+  border: none;
+  border-radius: 50px;
+  padding: 1.2em 2em;
+  width: 500px;
+}
+
+.signup__form-btn {
+  width: 250px;
+}
+
