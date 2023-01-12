@@ -278,7 +278,7 @@ a {
 /* --- FOOTER --- */
 
 footer {
-  background: var(--footer-bg);
+  background: var(--bg-footer);
   padding: 200px 10rem 100px 10rem;
   display: grid;
   grid-template-columns: 4fr 3fr 1.1fr 1.5fr 2fr;
